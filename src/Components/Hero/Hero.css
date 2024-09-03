@@ -1,0 +1,8 @@
+.hero {
+  flex: 1;
+  height: auto;
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 20px 40px;
+  border-top-left-radius: 20px;
+}

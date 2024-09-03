@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
-import { avatar } from '../../assets/avatar.svg';
+import avatar from '../../assets/avatar.svg'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -16,16 +16,18 @@ const Navbar = () => {
                 <input type="text" placeholder='Search Project...' />
                 <FontAwesomeIcon className='search-icon' icon={faSearch} />
             </div>
-            <div className="notifications">
-                <FontAwesomeIcon className='bell' icon={faBell} />
-                <div className="notification-count">3</div>
-            </div>
-            <div className="user-details">
-                <div className="d-flex align-items-center justify-content-center">
-                    <h4 className="name">Prayush Adhikari</h4>
-                    <p className='profession'>Web Developer</p>
+            <div className="d-flex align-items-center justify-content-center gap-5">
+                <div className="notifications">
+                    <FontAwesomeIcon className='bell' icon={faBell} />
+                    <div className="notification-count">3</div>
                 </div>
-                <img src={avatar} alt="avatar" />
+                <div className="user-details">
+                    <div>
+                        <h4 className="name">Prayush Adhikari</h4>
+                        <p className='profession'>Web Developer</p>
+                    </div>
+                    <img className='avatar' src={avatar} alt="avatar" />
+                </div>
             </div>
         </nav>
     )
