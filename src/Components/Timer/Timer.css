@@ -18,8 +18,18 @@
   object-fit: contain;
 }
 
+.timer img:hover {
+  background-color: #faba188f;
+  transition: all 0.3s ease;
+}
+
 .timer p {
   font-size: 18px;
   color: #000;
   font-weight: 500;
+  max-width: 150px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }

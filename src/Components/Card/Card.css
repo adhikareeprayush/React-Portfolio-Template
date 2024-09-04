@@ -1,0 +1,41 @@
+.card {
+  flex-basis: 31%;
+  padding: 20px 20px;
+  border: 0px;
+  height: auto;
+  border-radius: 20px;
+  gap: 32px;
+}
+
+.card .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.card .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.content img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  background-color: #faba1838;
+  border-radius: 18px;
+  padding: 20px;
+}
