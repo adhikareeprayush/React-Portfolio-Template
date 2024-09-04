@@ -1,0 +1,50 @@
+.project-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+.project-view .image {
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #fff8e8;
+}
+
+.project-view .image img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-color: #fff8e8;
+}
+
+.project-view p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.time-count {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff8e8;
+  padding: 7px 13px;
+  font-size: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.progress-bar {
+  width: 180px;
+  height: 6px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin-top: 10px;
+}

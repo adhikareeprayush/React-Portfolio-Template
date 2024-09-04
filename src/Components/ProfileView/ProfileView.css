@@ -1,0 +1,38 @@
+.profile-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+.profile-view .details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-view .details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fabb18;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.view-all {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff8e8;
+  padding: 7px 13px;
+  font-size: 15px;
+
+  border-radius: 10px;
+  text-decoration: none;
+}

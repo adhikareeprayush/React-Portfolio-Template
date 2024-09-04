@@ -1,0 +1,10 @@
+.members {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px;
+  gap: 24px;
+  border-radius: 10px;
+  background-color: #fff;
+  flex-basis: 47%;
+}

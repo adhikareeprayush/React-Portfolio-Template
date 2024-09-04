@@ -1,0 +1,9 @@
+.projects {
+  flex-basis: 52%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 24px;
+  border-radius: 10px;
+  background-color: #fff;
+}

@@ -32,8 +32,8 @@
 }
 
 .content img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
   background-color: #faba1838;
   border-radius: 18px;
