@@ -25,3 +25,23 @@ p {
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+.main-content {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  height: 100%;
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,8 +1,9 @@
 .main {
+  width: calc(100% - 300px);
+  margin-left: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  flex-basis: 80%;
   height: 100%;
 }
