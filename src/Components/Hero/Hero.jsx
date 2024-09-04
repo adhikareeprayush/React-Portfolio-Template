@@ -1,5 +1,4 @@
 import './Hero.css'
-import Date from '../Date/Date'
 import Timer from '../Timer/Timer'
 import Card from '../Card/Card'
 import Projects from '../Projects/Projects'
@@ -8,13 +7,14 @@ import activity from '../../assets/activity.svg'
 import folder from '../../assets/folder.svg'
 import work from '../../assets/work.svg'
 import Members from '../Members/Members'
+import DateTime from '../DateTime/DateTime'
 
 
 const Hero = () => {
     return (
         <div className='hero'>
             <div className="d-flex justify-content-between">
-                <Date />
+                <DateTime />
                 <Timer />
             </div>
             <div className="d-flex justify-content-between mt-5">

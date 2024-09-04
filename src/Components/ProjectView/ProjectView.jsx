@@ -14,7 +14,7 @@ const ProjectView = (props) => {
                 00:40:00
             </div>
             <div className="progress-bar">
-
+                
             </div>
         </div>
     )

@@ -2,10 +2,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
-import avatar from '../../assets/avatar.svg'
 import './Navbar.css';
+import { UserButton, useUser } from '@clerk/clerk-react';
 
 const Navbar = () => {
+    const { user } = useUser();
     return (
         <nav className='navbar'>
             <div className="nav-title d-flex align-items-center gap-5">
@@ -23,10 +24,12 @@ const Navbar = () => {
                 </div>
                 <div className="user-details">
                     <div>
-                        <h4 className="name">Prayush Adhikari</h4>
+                        <h4 className="name">{user?.firstName} {user?.lastName}</h4>
                         <p className='profession'>Web Developer</p>
                     </div>
-                    <img className='avatar' src={avatar} alt="avatar" />
+                    <div className="user-btn-container">
+                        <UserButton />
+                    </div>
                 </div>
             </div>
         </nav>

@@ -14,8 +14,8 @@
 }
 
 .profile-view .details img {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: #fabb18;
 }
@@ -35,4 +35,16 @@
 
   border-radius: 10px;
   text-decoration: none;
+}
+
+.image-container {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fabb18;
 }
