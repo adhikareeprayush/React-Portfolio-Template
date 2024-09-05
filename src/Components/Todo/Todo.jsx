@@ -1,9 +1,10 @@
 import './Todo.css'
+import Bot from '../Bot/Bot'
 
 const Todo = () => {
     return (
         <div className='todo main-content'>
-            This is todo!
+            <Bot />
         </div>
     )
 }
